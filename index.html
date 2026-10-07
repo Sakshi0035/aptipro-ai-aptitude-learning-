@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AptiPro - AI Aptitude Learning</title>
+    <meta name="description" content="An AI-powered learning platform for students preparing for aptitude tests. Features personalized tests, AI voice practice, progress analytics, and a community learning hub." />
+    <meta property="og:title" content="AptiPro - AI Aptitude Learning" />
+    <meta property="og:description" content="An AI-powered learning platform for students preparing for aptitude tests. Features personalized tests, AI voice practice, progress analytics, and a community learning hub." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'fire-orange-start': '#f97316',
+              'fire-red-end': '#ef4444',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

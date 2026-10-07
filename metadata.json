@@ -1,0 +1,10 @@
+{
+  "name": "AptiPro - AI Aptitude Learning",
+  "description": "An AI-powered learning platform for students preparing for aptitude tests. Features personalized tests, AI voice practice, progress analytics, and a community learning hub.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
